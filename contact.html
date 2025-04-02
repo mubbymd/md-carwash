@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | MD Carwash</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function handleLogin() {
+      const user = prompt("Enter your name:");
+      if (user) alert("Welcome, " + user + "!");
+    }
+    function switchLanguage(select) {
+      alert("Language switched to: " + select.value);
+    }
+    function toggleTheme() {
+      alert("Theme toggled.");
+    }
+  </script>
+</head>
+<body>
+
+<header>
+  <a href="index.html">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.KRk7ygP45M1XgghacZ7NMgAAAA&pid=Api" alt="MD Carwash Logo" class="logo" />
+  </a>
+  <div class="top-right">
+    <div class="avatar" title="Login" onclick="handleLogin()">🚗</div>
+    <select class="language-select" onchange="switchLanguage(this)">
+      <option value="en">English</option>
+      <option value="ar">Arabic</option>
+      <option value="sw">Swahili</option>
+    </select>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+  </div>
+  <h1>MD Carwash</h1>
+  <p>Powered by Mickey Magic!</p>
+</header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="booking.html">Booking</a>
+  <a href="contact.html">Contact</a>
+  <a href="admin.html">Admin</a>
+</nav>
+<section class="section">
+  <h2>🎁 Special Offer</h2>
+  <div style="background: #fff200; padding: 20px; border: 3px dashed #000; border-radius: 12px; max-width: 500px; margin: 20px auto;">
+    <h3>Wash Twice, Get the Third FREE!</h3>
+    <p>As part of our loyalty reward, every third wash is on us. Just use the same phone number when booking!</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Contact</h2>
+  <p>Owner: Mubarak Al Ismaili<br>WhatsApp: +968 79535291<br><a href='https://www.instagram.com/mb.ismaili'>Instagram Profile</a></p>
+</section>
+
+<footer>
+  <p>© 2025 MD Carwash. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
