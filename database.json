@@ -1,0 +1,6 @@
+
+[
+  {"name": "Ali", "phone": "91234567", "service": "Express Wash", "date": "2025-04-01", "time": "10:00"},
+  {"name": "Sara", "phone": "92345678", "service": "Deep Detailing", "date": "2025-04-02", "time": "14:00"},
+  {"name": "Hamed", "phone": "93456789", "service": "Wax & Shine", "date": "2025-04-03", "time": "09:00"}
+]
